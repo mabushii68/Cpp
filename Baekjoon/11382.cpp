@@ -10,4 +10,4 @@ int main()
 
     cout << A + B + C << endl;
 
-}
+}   
