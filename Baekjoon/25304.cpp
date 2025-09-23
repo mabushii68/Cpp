@@ -1,8 +1,28 @@
-#include <iostream> 
+#include <iostream>
+
 using namespace std;
 
-int main(int argc, char *argv[]) {
+int main() {
+
+    int x, t, a, b;
+
+    cin >> x;
+    cin >> t;
+
+    for (int i = 0; i < t; i++) {
+        cin >> a >> b;
+        x -= a * b;
+    }
+
+    if (x == 0) {
+        cout << "Yes";
+    }
+
+    else {
+    cout << "No";
+    }
     
+    return 0;
 }
 
 // 첫째 줄 : 영수증에 적힌 총 금액 X
