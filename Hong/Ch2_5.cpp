@@ -44,6 +44,7 @@ int main() {
     cout << neginf << " " << std::isinf(neginf) << endl;
     cout << nan << " " << std::isinf(nan) << endl;
     cout << 1.0 << " " << std::isinf(1.0) << endl;
+    
 
     return 0;
 
