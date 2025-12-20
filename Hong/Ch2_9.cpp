@@ -1,3 +1,5 @@
+// 심볼릭 상수 Symbolic constants
+
 #include <iostream>
 using namespace std;
 

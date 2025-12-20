@@ -1,3 +1,5 @@
+// == sizeof, 쉼표 연산자, 조건부 연산자
+
 #include <iostream>
 using namespace std;
 
